@@ -1,0 +1,23 @@
+{
+    "name": "eti/curso-php-composer",
+    "description": "Curso de PHP Composer",
+    "authors": [
+        {
+            "name": "Robson Marcato",
+            "email": "desenvolvimento@rhovanion.com.br"
+        }
+        ,
+        {
+            "name": "Edevair Viesa Junior",
+            "email": "junior@rhovanion.com.br"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "ETI\\": "src/eti/",
+            "App\\": "app/"
+             
+        }
+    }
+}
